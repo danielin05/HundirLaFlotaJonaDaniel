@@ -62,6 +62,7 @@ public class Main extends Application {
         stage.setMinWidth(windowWidth);
         stage.setMinHeight(windowHeight);
         stage.show();
+        stage.setResizable(false);
 
         // Add icon only if not Mac
         if (!System.getProperty("os.name").contains("Mac")) {
