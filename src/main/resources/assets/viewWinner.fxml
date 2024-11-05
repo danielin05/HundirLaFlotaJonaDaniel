@@ -17,6 +17,7 @@
             <Image url="@image1.png" />
          </image>
       </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff77" height="533.0" layoutX="-6.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="637.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000098" height="243.0" layoutX="122.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="376.0" AnchorPane.leftAnchor="122.0" AnchorPane.rightAnchor="132.0" />
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>

@@ -175,6 +175,7 @@ public class Main extends WebSocketServer {
                     rst2.put("gameWinner", obj.getString("ganador"));
                     System.out.println("El ganador es: " + obj.getString("ganador"));
                     broadcastMessage(rst2.toString(), null);
+                    break;
                 }
             }
         }

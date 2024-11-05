@@ -174,6 +174,7 @@ public class Main extends Application {
                 if (UtilsViews.getActiveView() != "ViewWinner") {
                     UtilsViews.setViewAnimating("ViewWinner");
                 }
+                break;
         }
     }
 
