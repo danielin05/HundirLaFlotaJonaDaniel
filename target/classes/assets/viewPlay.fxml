@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" minHeight="500.0" minWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.client.CtrlPlay">
+   <children>
+      <ImageView fitHeight="544.0" fitWidth="702.0" layoutX="-72.0" layoutY="-14.0" pickOnBounds="true">
+         <image>
+            <Image url="@image.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff77" height="531.0" layoutX="-7.0" stroke="BLACK" strokeType="INSIDE" width="637.0" />
+      <VBox alignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" text="PREPARING THE WARSHIPS">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+            <Canvas fx:id="canvas" height="25.0" width="25.0" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+      <Button fx:id="botonListo" layoutX="429.0" layoutY="409.0" mnemonicParsing="false" onAction="#readyButton" prefHeight="53.0" prefWidth="128.0" style="-fx-border-color: black; -fx-background-color: grey;" text="Ready" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
